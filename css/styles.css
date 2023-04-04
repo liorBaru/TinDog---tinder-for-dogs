@@ -1,0 +1,227 @@
+/****************************** TAG SELECTORS ********************************/
+body {
+  background-color: #ef8172;
+  font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bold;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.row {
+  padding: 5px 5px 5px 5px;
+}
+
+/************************** top-title-navBar section section *********************/
+#top-title-navBar{
+  color: #E0144C;
+  background-color: #ef8172;
+}
+.navbar-brand {
+  padding-left: 20px;
+  color: #E0144C;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0px 10px 0px 10px;
+}
+
+.nav-link {
+  color: #E0144C;
+  font-weight: bold;
+  border-radius: 100%;
+}
+.nav-link:hover{
+  background-color: grey;
+  color: #E0144C;
+  font-weight: bold;
+  border-radius: 100%;
+}
+
+
+.container-fluid {
+  background-color: #ef8172;
+  padding: 3% 15% 3% 15%;
+}
+
+.top-navbar-div {
+  background-color: black;
+  padding: 0% 0% 0% 0%;
+}
+.collapse-nav-bar{
+  color: #E0144C;
+  background-color: #ef8172;
+}
+.collapse-nav-bar-span{
+  color: #E0144C;
+}
+
+/************************** intro-section section *********************/
+#intro-section{
+  padding: 10px 10px 95px 10px;
+  color: #fff;
+}
+.download-btn-my {
+  margin: 5% 3% 5% 0;
+}
+
+.tindogImg {
+  width: 20%;
+  transform: rotate(20deg);
+  position: absolute;
+
+}
+@media ( max-width: 992px) {
+  .tindogImg{
+    position: static;
+    margin-top: 40px;
+    transform: rotate(0deg);
+    width: 40%;
+  }
+  #intro-section{
+    text-align: center;
+  }
+}
+
+/************************** features section *********************/
+#features {
+  margin: 0px 0px 0px 0px;
+  padding: 7% 12% 3% 12%;
+  background-color: white;
+  position: relative;
+}
+.features-div{
+  padding: 10px 10px 10px 10px;
+  background-color: white;
+}
+
+.features-col-my {
+  text-align: center;
+}
+
+.in-col-div {
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+
+.features-icons-my {
+  margin: 0 auto 10px auto;
+  color: #ef8172;
+}
+
+.features-icons-my:hover {
+  color: #E0144C;
+}
+
+/************************** testimonials-sec section *********************/
+#testimonials-sec {
+  margin: 0px 0px 0px 0px;
+  padding: 1% 0% 1% 0%;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.testimonials-div {
+  margin: 3% 9% 3% 9%;
+  padding: 3% 3% 3% 3%;
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+.testimonial-text {
+  padding: 3% 10% 3% 10%;
+}
+
+.testimonial-image {
+  margin: 20px 30px 20px 20px;
+  width: 25%;
+  border-radius: 100%;
+}
+
+/************************** press section *********************/
+#press-sec {
+  padding: 4% 8.5% 4% 8.5%;
+}
+
+.press-div {
+  background-color: #fff
+}
+
+.press-col {
+  padding: 20px 0px 20px 10px;
+}
+
+.press-img {
+  width: 90%
+}
+
+/************************** pricing section *********************/
+#pricing-sec {
+  background-color: #fff;
+  padding: 4% 8.5% 5% 8.5%;
+}
+.header-pricing{
+  color: #fff;
+}
+.pricing-div{
+  background-color: #ef8172;
+  padding: 0% 4% 5% 4%;
+}
+.singIn-price{
+
+}
+
+/************************** cta section *********************/
+#cta-sec {
+  padding: 3% 25% 3% 25%;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.download-btn-cta-my{
+  margin: 1.5% 1% 3% 1%;
+}
+
+
+#footer {
+  padding: 8% 30% 5% 30%;
+  background-color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+.footer-img{
+  margin: 5px 7px 15px 7px;
+}
+
+/****************************** ID SELECTORS **********************************/
+/* id is uniqe !!! */
+/*  #idName{ property: vale; }   ---  id is more specific then class!!! */
+/****************************** SUDO class ********** *********************/
+/*  ELEMENT:actName{ property: vale; } */
+/* for exmample:
+                 img:hover{ background-color: red; }
+                 any time we hover img with the mouse it
+                  will change colot to red*/
+/****************************** TAG SELECTORS ********************************/
+/****************************** CLASS SELECTORS *******************************/
+/*  .className{ property: vale; } */
+/****************************** ID SELECTORS **********************************/
+/* id is uniqe !!! */
+/*  #idName{ property: vale; }   ---  id is more specific then class!!! */
+/****************************** SUDO class ********** *********************/
+/*  ELEMENT:actName{ property: vale; } */
+/* for exmample:
+                 img:hover{ background-color: red; }
+                 any time we hover img with the mouse it
+                  will change colot to red*/
